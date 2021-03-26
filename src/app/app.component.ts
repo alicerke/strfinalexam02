@@ -16,7 +16,7 @@ export class AppComponent {
   fPhrase = '';
   fKey = 'title';
   sKey = '';
-  validRegexp = /^[a-zA-Z0-9\s]*$/;
+  validRegexp = /^[a-zA-Z0-9 \s]*$/;
 
   constructor(
     private todoService: TodoService,
